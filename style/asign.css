@@ -7,15 +7,14 @@
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
-    border: 1px solid black;
 }
-
 .btn{
     background-color: #4E47FF;
     padding: 8px 20px;
     border-radius: 10px;
     color: white;
     font-weight: bold;
+    border: none;
 }
 
 .st h4{
@@ -26,7 +25,6 @@
     margin-left: 200px;
     margin-right: 200px;
     margin-top:150px ;
-
 }
 .banner h2{
     text-align: center;
@@ -59,7 +57,6 @@
     background-color: #c8c8cf;
     margin: 120px;
     border-radius: 20px;
-    /* height: 250px; */
 }
 .user-section .title{
     text-align: center;
@@ -80,16 +77,11 @@
     color: #757575;
     font-size: 20px;
 }
-/* .user-section .subtitle{
-    margin-bottom: 50px;
-} */
 .feedback{
     margin: 120px;
 }
 .feedback-title{
     padding: 20px;
-
-    /* border: 1px solid black; */
     border-radius: 10px;
     height: 190px;
     width: 900px;
@@ -110,8 +102,6 @@
     height: 40px;
     width: 40px;
     border-radius: 20px;
-    /* padding-bottom: 20px; */
-    /* padding-left: 100px; */
     padding-top: 20px;
 }
 .main{
@@ -120,5 +110,69 @@
 }
 .nd{
     color: #757575;
-
+}
+.extra{
+    margin: 120px;
+    justify-content: center;
+}
+.extra img{
+    height: 450px;
+    width: 100%;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+.extra h1{
+    font-size: 50px;
+    text-align: center;
+}
+.extra small{
+    text-align: center;
+    padding-left: 435px;
+    font-size: 15px;    
+    color: #757575;
+}
+.extra button{
+    margin-left: 580px;
+    margin-top: 20px;
+}
+.touch{
+    margin-top: 120px;
+    margin-left: 160px;
+    margin-bottom: 120px;
+    display: flex;
+    gap: 300px;
+    height: 400px;
+}
+.touch-left{
+    font-size: 2.5em;
+    padding-top: 30px;
+}
+.touch-left h1{
+    font-size: 80px;
+    padding-left: 10px;
+}
+form{
+    margin-top: 40px ;
+    height: 350px;
+    width: 500px;
+}
+form input, textarea {
+    border-radius: 10px;
+    width: 90%;
+    height: 50px;
+    margin-top: 8px;
+    background-color: rgb(235, 234, 233);
+    border: none;
+    padding: 10px;
+}
+.btnslt{
+    background-color:#4E47FF ;
+    margin-top: 20px;
+    padding:20px 200px;
+    border: none;
+    border-radius: 10px;
+}
+.btnslt:hover{
+    background-color: rgb(45, 144, 36);
+    box-shadow: 5px 5px rgb(105, 177, 201);
 }
