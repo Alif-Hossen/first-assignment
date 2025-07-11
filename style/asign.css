@@ -176,3 +176,22 @@ form input, textarea {
     background-color: rgb(45, 144, 36);
     box-shadow: 5px 5px rgb(105, 177, 201);
 }
+.last{
+    /* border: 1px solid black; */
+    margin: 177px 500px;
+}
+.last h1{
+    text-align: center;
+    font-size: 90px;
+    color: #4E47FF;
+}
+.last p{
+    margin-left: 10px;
+    color: #757575;
+    justify-content: center;
+}
+nav a{
+    padding-left: 60px;
+    text-decoration: none;
+    color: #757575;
+}
