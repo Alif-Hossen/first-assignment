@@ -1,0 +1,84 @@
+.navbar{
+    background-image: url('Hero-bg.png');
+    height: 600px;
+}
+.st{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.btn{
+    background-color: #4E47FF;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.st h4{
+    font-size: 35px;
+    color: #4E47FF;
+}
+.banner{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top:150px ;
+
+}
+.banner h2{
+    text-align: center;
+    font-size: 50px;
+}
+.banner .btn{
+    margin-left: 45%;
+    padding: 10px 25px;
+}
+.btn:hover{
+    background-color: rgb(45, 144, 36);
+    box-shadow: 2px 2px rgb(135, 188, 206);
+}
+.section{
+    margin: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.section h2{
+    font-size: 40px;
+}
+.section p{
+    color: #757575;
+    font-size: 20px;
+}
+.right img{
+    border-radius: 50px;
+}
+.user-section{
+    background-color: #c8c8cf;
+    margin: 120px;
+    border-radius: 20px;
+    /* height: 250px; */
+}
+.user-section .title{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+.user-section .subtitle h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.user-section .subtitle p{
+    color: #757575;
+    font-size: 20px;
+}
+/* .user-section .subtitle{
+    margin-bottom: 50px;
+} */
